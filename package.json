@@ -11,13 +11,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-env": "^7.25.9",
+    "@graphql-tools/schema": "^10.0.7",
     "apollo-server": "^3.13.0",
     "dotenv": "^16.4.5",
     "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "mongodb-memory-server": "^10.1.2",
     "mongoose": "^8.7.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
+    "mockingoose": "^2.16.2",
     "supertest": "^7.0.0"
   }
 }
